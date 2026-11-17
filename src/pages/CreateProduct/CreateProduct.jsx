@@ -28,6 +28,7 @@ function CreateProduct(){
     return(
         <div>
             <h2>Create Product</h2>
+            <br />
 
             <form onSubmit={handleSubmit}>
                 <label htmlFor="category">Category:</label>
@@ -38,6 +39,8 @@ function CreateProduct(){
                 name="category"
                 onChange={handleChange}
                 />
+                <br />
+                <br />
 
                 <label htmlFor="description">Description:</label>
                 <input 
@@ -47,6 +50,8 @@ function CreateProduct(){
                 name="description"
                 onChange={handleChange}
                 />
+                <br />
+                <br />
 
                 <label htmlFor="price">Price:</label>
                 <input 
@@ -56,6 +61,8 @@ function CreateProduct(){
                 name="price"
                 onChange={handleChange}
                 />
+                <br />
+                <br />
 
                 <label htmlFor="quantity">Quantity:</label>
                 <input 
@@ -65,6 +72,8 @@ function CreateProduct(){
                 name="quantity"
                 onChange={handleChange}
                 />
+                <br />
+                <br />
 
                 <label htmlFor="title">Title:</label>
                 <input 
@@ -74,6 +83,8 @@ function CreateProduct(){
                 name="title"
                 onChange={handleChange}
                 />
+                <br />
+                <br />
 
                 <button>Create Product</button>
             </form>
